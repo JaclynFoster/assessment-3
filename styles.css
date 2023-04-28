@@ -112,14 +112,14 @@ img {
 	color:darkslateblue;
   }
 
-  button {
+  .button {
 	height: 60px;
 	background-color: yellow;
 	border: 3px solid darkslateblue;
 	border-radius: 50%;
 	margin-top: 40px;
   }
-button:active {
+.button:active {
 	transform:scale(.8, .8);
 }
 
