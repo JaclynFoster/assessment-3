@@ -1,0 +1,171 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+	position:fixed;
+	top: 0;
+}
+nav {
+	border-bottom: 2px solid orange;
+	
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+
+#body-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-items: flex-start;
+	background-color: aquamarine;
+	position: relative;
+	padding-top: 50px;
+}
+
+.about-image {
+	border: 3px solid whitesmoke;
+	box-shadow: 5px 5px 5px 5px lightslategray;
+}
+
+.about-image:hover {
+	transform: scale(1.2, 1.2);
+	transition: 1s;
+}
+
+.pic3 {
+	width: 600px;
+	margin-left: 140px;
+	margin-top: 10px;
+}
+
+
+.pic2 {
+	margin-left: 10px;
+}
+
+.background {
+	animation:slide 3s ease-in-out infinite alternate;
+	background-image: linear-gradient(-60deg, rgb(207, 218, 221) 50%, rgb(118, 187, 232) 50%);
+	bottom:0;
+	left:-50%;
+	opacity:.5;
+	position:fixed;
+	right:-50%;
+	top:0;
+	z-index:-1;
+  }
+  
+  .background2 {
+	animation-direction:alternate-reverse;
+	animation-duration:4s;
+  }
+  
+  .background3 {
+	animation-duration:5s;
+  }
+
+  @keyframes slide {
+	0% {
+	  transform:translateX(-25%);
+	}
+	100% {
+	  transform:translateX(25%);
+	}
+  }
+
+  h2 {
+	color:darkslateblue;
+  }
+ 
+  h1 {
+	color:darkslateblue;
+  }
+
+  button {
+	height: 60px;
+	background-color: yellow;
+	border: 3px solid darkslateblue;
+	border-radius: 50%;
+	margin-top: 40px;
+  }
+button:active {
+	transform:scale(.8, .8);
+}
+
+  .button-parent {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+  }
+
+  #generate-form {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+  }
+
+  label {
+	color: darkslateblue;
+	font-size: 20px;
+	font-weight: bolder;
+  }
+
+  #generate-btn {
+	font-weight: bolder;
+	font-size: 20px;
+	color: darkslateblue;
+  }
+
+  #location-body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+  }
+
+  .eagle {
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 300px;
+	margin-bottom: 200px;
+  }
+
+  .eagle-img {
+	height: 250px;
+	width: 250px;
+	margin-left: 100px;
+  }
